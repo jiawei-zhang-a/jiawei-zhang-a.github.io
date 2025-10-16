@@ -1,18 +1,11 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Jiawei Zhang:
+  name        : "Jiawei Zhang"
+  uri         : "https://jiaweizhang.github.io"
+  email       : "jiaweizhang@uchicago.edu"
+  bio         : "Data Science Ph.D. student focusing on LLMs and causal inference."
+  avatar      : "profile.png"
+  github      : "jiawei-zhang-a"
+  linkedin    : "https://www.linkedin.com/in/jiawei-zhang-165403238/"
+  twitter     : 

@@ -11,54 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2024 – Present: **Ph.D. in Data Science**, University of Chicago
+* Sep 2020 – May 2024: **B.A. in Mathematics & Computer Science**, Business Minor, New York University  
+  * Courant Institute — focus on statistical learning, optimization, and data engineering.
 
-Work experience
+Awards
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2018: **National Olympiad of Informatics in Province — First Prize**
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* H. Bao*, **J. Zhang***, M. Cao*, and J. Evans. “From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021.” *The Web Conference (WWW) 2025*. [https://dl.acm.org/doi/10.1145/3701716.3715502](https://dl.acm.org/doi/10.1145/3701716.3715502)
+* S. Heng*, **J. Zhang***, and Y. Feng. “Design-based causal inference with missing outcomes: missingness mechanisms, imputation-assisted randomization tests, and covariate adjustment.” *Journal of the American Statistical Association (Theory and Methods)*. [https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204)
+
+(*co-first author on both publications*)
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Spring 2025: Teaching Assistant, DATA 22100 Introduction to Machine Learning — University of Chicago  
+* Fall 2023: Teaching Assistant, GPH-GU 2363 Causal Inference: Design and Analysis — New York University

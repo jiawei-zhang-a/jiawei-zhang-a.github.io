@@ -1,152 +1,263 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Jiawei Zhang",
+    "label": "Data Scientist & Ph.D. Researcher",
+    "email": "jiaweizhang@uchicago.edu",
+    "phone": "+1 (718) 916-5636",
+    "website": "https://jiaweizhang.github.io",
+    "summary": "Data Science Ph.D. student focusing on LLMs and causal inference while maintaining scikit-learn.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Chicago",
       "countryCode": "US",
-      "region": ""
+      "region": "IL"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "jiawei-zhang-a",
+        "url": "https://github.com/jiawei-zhang-a"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jiawei-zhang-165403238",
+        "url": "https://www.linkedin.com/in/jiawei-zhang-165403238/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Sapient Intelligence",
+      "position": "Research Scientist Intern",
+      "url": "https://www.sapientintelligence.ai",
+      "startDate": "2025-06",
+      "endDate": "Present",
+      "summary": "Advancing the Hierarchical Reasoning Model for self-evolving AGI and integrating visual autoregressive modeling to improve adaptive planning.",
+      "highlights": [
+        "Designed reasoning pipelines that couple HRM with spatiotemporal world models.",
+        "Explored VAR-based modules that boost predictive reasoning and planning stability."
+      ],
+      "location": "Remote"
+    },
+    {
+      "company": "scikit-learn",
+      "position": "Open Source Developer",
+      "url": "https://scikit-learn.org",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "summary": "Maintain and extend core machine learning components, shape release planning, and support new contributors.",
+      "highlights": [
+        "Created BayesSearchCV and delivered Gaussian Mixture and preprocessing improvements adopted in releases.",
+        "Served as a triage team member, guiding contributor onboarding, testing, and review workflows."
+      ],
+      "location": "Remote"
+    },
+    {
+      "company": "Pandas",
+      "position": "Open Source Contributor",
+      "url": "https://pandas.pydata.org",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "summary": "Improved reliability and metadata propagation in the core pandas data analysis library.",
+      "highlights": [
+        "Resolved multi-year metadata propagation regressions impacting production workloads.",
+        "Delivered fixes now included in the mainline library."
+      ],
+      "location": "Remote"
+    },
+    {
+      "company": "New York University",
+      "position": "Research Assistant",
+      "url": "https://www.nyu.edu",
+      "startDate": "2023-01",
+      "endDate": "2024-09",
+      "summary": "Co-developed Imputation-Assisted Randomization Tests for causal inference with missing outcomes.",
+      "highlights": [
+        "Authored theoretical guarantees and algorithms for covariate-adjusted randomization tests.",
+        "Released open-source Python and R implementations adopted by collaborating research teams."
+      ],
+      "location": "New York, NY, USA"
+    },
+    {
+      "company": "New York University",
+      "position": "Research Assistant",
+      "url": "https://www.nyu.edu",
+      "startDate": "2022-08",
+      "endDate": "Present",
+      "summary": "Modeled heterogeneous treatment effects at scale to inform individualized clinical decisions.",
+      "highlights": [
+        "Analyzed 700k+ study cases to estimate personalized risks for bariatric surgery candidates.",
+        "Constructed confidence intervals that supported updates to ASMBS guidelines."
+      ],
+      "location": "New York, NY, USA"
+    },
+    {
+      "company": "Tencent Music Entertainment Group",
+      "position": "AI Intern",
+      "url": "https://www.tencentmusic.com/",
+      "startDate": "2021-05",
+      "endDate": "2021-11",
+      "summary": "Built speech and language prototypes for consumer music products.",
+      "highlights": [
+        "Developed ASR and TTS models to improve lyric transcription accuracy.",
+        "Implemented smart lyrics features that integrated with large-scale music platforms."
+      ],
+      "location": "Shenzhen, Guangdong, China"
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "University of Chicago",
+      "area": "Data Science",
+      "studyType": "Ph.D.",
+      "startDate": "2024-09",
+      "endDate": "Present",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Large language models",
+        "Causal inference",
+        "Responsible machine learning",
+        "Hierarchical reasoning for AGI"
+      ],
+      "summary": ""
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "New York University",
+      "area": "Mathematics & Computer Science",
+      "studyType": "B.A. with Business Minor",
+      "startDate": "2020-09",
+      "endDate": "2024-05",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Machine learning",
+        "Statistical modeling",
+        "Data engineering",
+        "Optimization"
+      ],
+      "summary": "Undergraduate studies combining mathematics, computer science, and business."
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "awards": [
+    {
+      "title": "National Olympiad of Informatics in Province — First Prize",
+      "date": "2018",
+      "awarder": "",
+      "summary": "Top provincial award recognizing algorithmic programming excellence."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": [
+        "Python",
+        "scikit-learn",
+        "PyTorch",
+        "SQL",
+        "Large language models",
+        "Causal inference",
+        "Machine learning systems",
+        "ASR/TTS",
+        "Bayesian optimization",
+        "GFlowNets"
+      ]
+    },
+    {
+      "name": "Workflow & Tooling",
+      "level": "",
+      "keywords": [
+        "Experiment design",
+        "MLOps",
+        "GPU acceleration",
+        "Reproducible research",
+        "Open-source governance"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GFlowNet Finetuning for Diverse Generation",
+      "startDate": "2025-01",
+      "endDate": "2025-03",
+      "summary": "Developed a GFlowNet-based approach to increase diversity in open-ended LLM generation, outperforming RL baselines on creative benchmarks.",
+      "url": "",
+      "roles": [
+        "Lead researcher"
+      ],
+      "entity": "University of Chicago",
+      "type": "research"
+    },
+    {
+      "name": "python-iArt / iArt",
+      "startDate": "2023-01",
+      "endDate": "",
+      "summary": "Open-source Python and R packages providing Imputation-Assisted Randomization Tests for causal inference with missing outcomes.",
+      "url": "https://i-art.readthedocs.io/en/latest/",
+      "roles": [
+        "Co-maintainer"
+      ],
+      "entity": "New York University",
+      "type": "software"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021",
+      "publisher": "The Web Conference (WWW) 2025",
+      "releaseDate": "2025",
+      "website": "https://dl.acm.org/doi/10.1145/3701716.3715502",
+      "summary": "Analyzes three decades of publication data to uncover convergence dynamics in computational social science (co-first author).",
+      "authors": [
+        "H. Bao*",
+        "J. Zhang*",
+        "M. Cao*",
+        "J. Evans"
+      ]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Design-based causal inference with missing outcomes: missingness mechanisms, imputation-assisted randomization tests, and covariate adjustment",
+      "publisher": "Journal of the American Statistical Association (Theory and Methods)",
+      "releaseDate": "2025",
+      "website": "https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204",
+      "summary": "Introduces imputation-assisted randomization tests and covariate adjustment techniques for causal inference with missing outcomes (co-first author).",
+      "authors": [
+        "S. Heng*",
+        "J. Zhang*",
+        "Y. Feng"
+      ]
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "DATA 22100 Introduction to Machine Learning: Concepts and Applications",
+      "institution": "University of Chicago",
+      "date": "2025-03",
+      "role": "Teaching Assistant",
+      "description": "Led labs and discussion sessions covering supervised/unsupervised learning, model evaluation, and responsible ML."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "GPH-GU 2363 Causal Inference: Design and Analysis",
+      "institution": "New York University",
+      "date": "2023-09",
+      "role": "Teaching Assistant",
+      "description": "Supported course delivery on design-based causal inference, randomized experiments, and sensitivity analyses."
     }
   ],
-  "portfolio": [
+  "languages": [],
+  "interests": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Research interests",
+      "keywords": [
+        "LLM reinforcement learning, interpretability, alignment",
+        "Causal inference"
+      ]
     }
-  ]
+  ],
+  "references": [],
+  "presentations": [],
+  "volunteer": [],
+  "certificates": [],
+  "hobbies": [],
+  "portfolio": []
 }
