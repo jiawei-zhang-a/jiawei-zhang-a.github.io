@@ -9,6 +9,8 @@ redirect_from:
 
 I am a Ph.D. student in Data Science at the University of Chicago, advised by Shuangning Li. My research spans causal inference, LLM post-training and interpretability, and reinforcement learning.
 
+I welcome collaborations on these topics. Feel free to [email me](mailto:jiaweizhang@uchicago.edu).
+
 ## Education
 
 - **Ph.D. in Data Science**, University of Chicago, Data Science Institute (September 2024 – May 2028)
