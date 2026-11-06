@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jiawei Zhang",
-    "label": "Data Scientist & Ph.D. Researcher",
+    "label": "Data Science Ph.D. Researcher",
     "email": "jiaweizhang@uchicago.edu",
     "phone": "+1 (718) 916-5636",
     "website": "https://jiawei-zhang-a.github.io",
-    "summary": "Data Science Ph.D. student focusing on LLMs and causal inference while maintaining scikit-learn.",
+    "summary": "Ph.D. student at the University of Chicago studying causal inference, LLM post-training and interpretability, and reinforcement learning.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,229 +28,159 @@
   },
   "work": [
     {
-      "company": "Sapient Intelligence",
-      "position": "Research Scientist Intern",
-      "url": "https://www.sapientintelligence.ai",
-      "startDate": "2025-06",
-      "endDate": "Present",
-      "summary": "Advancing the Hierarchical Reasoning Model for self-evolving AGI and integrating visual autoregressive modeling to improve adaptive planning.",
-      "highlights": [
-        "Designed reasoning pipelines that couple HRM with spatiotemporal world models.",
-        "Explored VAR-based modules that boost predictive reasoning and planning stability."
-      ],
-      "location": "Remote"
-    },
-    {
       "company": "scikit-learn",
-      "position": "Open Source Developer",
-      "url": "https://scikit-learn.org",
+      "position": "Open-Source Contributor",
       "startDate": "2023-03",
       "endDate": "Present",
-      "summary": "Maintain and extend core machine learning components, shape release planning, and support new contributors.",
-      "highlights": [
-        "Created BayesSearchCV and delivered Gaussian Mixture and preprocessing improvements adopted in releases.",
-        "Served as a triage team member, guiding contributor onboarding, testing, and review workflows."
-      ],
-      "location": "Remote"
+      "summary": "22 merged pull requests across five modules, including parameter validation and a GaussianMixture efficiency improvement shipped in version 1.3 (PR #26021).",
+      "highlights": []
     },
     {
-      "company": "Pandas",
-      "position": "Open Source Contributor",
-      "url": "https://pandas.pydata.org",
-      "startDate": "2023-03",
-      "endDate": "Present",
-      "summary": "Improved reliability and metadata propagation in the core pandas data analysis library.",
-      "highlights": [
-        "Resolved multi-year metadata propagation regressions impacting production workloads.",
-        "Delivered fixes now included in the mainline library."
-      ],
-      "location": "Remote"
-    },
-    {
-      "company": "New York University",
-      "position": "Research Assistant",
-      "url": "https://www.nyu.edu",
-      "startDate": "2023-01",
-      "endDate": "2024-09",
-      "summary": "Co-developed Imputation-Assisted Randomization Tests for causal inference with missing outcomes.",
-      "highlights": [
-        "Authored theoretical guarantees and algorithms for covariate-adjusted randomization tests.",
-        "Released open-source Python and R implementations adopted by collaborating research teams."
-      ],
-      "location": "New York, NY, USA"
-    },
-    {
-      "company": "New York University",
-      "position": "Research Assistant",
-      "url": "https://www.nyu.edu",
-      "startDate": "2022-08",
-      "endDate": "Present",
-      "summary": "Modeled heterogeneous treatment effects at scale to inform individualized clinical decisions.",
-      "highlights": [
-        "Analyzed 700k+ study cases to estimate personalized risks for bariatric surgery candidates.",
-        "Constructed confidence intervals that supported updates to ASMBS guidelines."
-      ],
-      "location": "New York, NY, USA"
-    },
-    {
-      "company": "Tencent Music Entertainment Group",
-      "position": "AI Intern",
-      "url": "https://www.tencentmusic.com/",
+      "company": "Tencent",
+      "position": "Research Scientist Intern, Speech AI",
       "startDate": "2021-05",
       "endDate": "2021-11",
-      "summary": "Built speech and language prototypes for consumer music products.",
-      "highlights": [
-        "Developed ASR and TTS models to improve lyric transcription accuracy.",
-        "Implemented smart lyrics features that integrated with large-scale music platforms."
-      ],
-      "location": "Shenzhen, Guangdong, China"
+      "summary": "Developed C++ ASR alignment and timestamping components and HiFi-GAN vocoder components for speech synthesis.",
+      "highlights": []
+    },
+    {
+      "company": "pandas",
+      "position": "Open-Source Developer",
+      "startDate": "2023-03",
+      "endDate": "2023-04",
+      "summary": "Fixed a metadata propagation bug (PR #52924).",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Chicago",
-      "area": "Data Science",
+      "institution": "University of Chicago, Data Science Institute",
+      "area": "Ph.D. in Data Science",
       "studyType": "Ph.D.",
       "startDate": "2024-09",
-      "endDate": "Present",
-      "gpa": null,
-      "courses": [
-        "Large language models",
-        "Causal inference",
-        "Responsible machine learning",
-        "Hierarchical reasoning for AGI"
-      ],
-      "summary": ""
+      "endDate": "2028-05 (expected)",
+      "summary": "Advisor: Shuangning Li (UChicago Booth School of Business).",
+      "courses": []
     },
     {
-      "institution": "New York University",
-      "area": "Mathematics & Computer Science",
-      "studyType": "B.A. with Business Minor",
+      "institution": "New York University, Courant Institute of Mathematical Sciences",
+      "area": "B.A. in Computer Science and Mathematics",
+      "studyType": "B.A.",
       "startDate": "2020-09",
       "endDate": "2024-05",
-      "gpa": null,
-      "courses": [
-        "Machine learning",
-        "Statistical modeling",
-        "Data engineering",
-        "Optimization"
-      ],
-      "summary": "Undergraduate studies combining mathematics, computer science, and business."
+      "summary": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "National Olympiad of Informatics in Province — First Prize",
+      "title": "National Olympiad in Informatics - First Prize",
       "date": "2018",
       "awarder": "",
-      "summary": "Top provincial award recognizing algorithmic programming excellence."
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Data Science",
+      "name": "Statistical Methods",
       "level": "",
       "keywords": [
-        "Python",
-        "scikit-learn",
-        "PyTorch",
-        "SQL",
-        "Large language models",
         "Causal inference",
-        "Machine learning systems",
-        "ASR/TTS",
-        "Bayesian optimization",
-        "GFlowNets"
+        "Randomization tests",
+        "Hypothesis testing",
+        "Missing-data methods",
+        "Covariate adjustment",
+        "Confidence regions",
+        "Monte Carlo methods",
+        "Probabilistic modeling"
       ]
     },
     {
-      "name": "Workflow & Tooling",
+      "name": "LLM Post-Training",
       "level": "",
       "keywords": [
-        "Experiment design",
-        "MLOps",
-        "GPU acceleration",
-        "Reproducible research",
-        "Open-source governance"
+        "Synthetic data generation",
+        "Rejection sampling",
+        "Full-parameter SFT",
+        "Reinforcement learning",
+        "DeepSpeed ZeRO-3",
+        "FlashAttention-2",
+        "vLLM"
       ]
     }
   ],
   "projects": [
     {
-      "name": "GFlowNet Finetuning for Diverse Generation",
-      "startDate": "2025-01",
-      "endDate": "2025-03",
-      "summary": "Developed a GFlowNet-based approach to increase diversity in open-ended LLM generation, outperforming RL baselines on creative benchmarks.",
+      "name": "Machine Learning-Assisted Causal Inference",
+      "startDate": "2023-01",
+      "endDate": "2025-05",
+      "summary": "Developed imputation-and-re-imputation tests for missing outcomes with finite-population-exact Type-I error control under the proposed missingness mechanism despite imputation-model misspecification.",
       "url": "",
       "roles": [
-        "Lead researcher"
+        "Researcher"
       ],
-      "entity": "University of Chicago",
+      "entity": "University of Chicago / New York University",
       "type": "research"
     },
     {
-      "name": "python-iArt / iArt",
-      "startDate": "2023-01",
-      "endDate": "",
-      "summary": "Open-source Python and R packages providing Imputation-Assisted Randomization Tests for causal inference with missing outcomes.",
-      "url": "https://i-art.readthedocs.io/en/latest/",
+      "name": "LLM Post-Training",
+      "startDate": "2025-01",
+      "endDate": "2026-10",
+      "summary": "Generated 66,603 exact-inference-labeled causal examples and trained models with full-parameter SFT and DAPO-based reinforcement learning; NeurIPS 2026 Spotlight.",
+      "url": "",
       "roles": [
-        "Co-maintainer"
+        "Researcher"
       ],
-      "entity": "New York University",
-      "type": "software"
+      "entity": "University of Chicago",
+      "type": "research"
     }
   ],
   "publications": [
     {
-      "name": "From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021",
-      "publisher": "The Web Conference (WWW) 2025",
-      "releaseDate": "2025",
-      "website": "https://dl.acm.org/doi/10.1145/3701716.3715502",
-      "summary": "Analyzes three decades of publication data to uncover convergence dynamics in computational social science (co-first author).",
-      "authors": [
-        "H. Bao*",
-        "J. Zhang*",
-        "M. Cao*",
-        "J. Evans"
-      ]
-    },
-    {
-      "name": "Design-based causal inference with missing outcomes: missingness mechanisms, imputation-assisted randomization tests, and covariate adjustment",
-      "publisher": "Journal of the American Statistical Association (Theory and Methods)",
+      "name": "Design-based Causal Inference with Missing Outcomes",
+      "publisher": "Journal of the American Statistical Association",
       "releaseDate": "2025",
       "website": "https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204",
-      "summary": "Introduces imputation-assisted randomization tests and covariate adjustment techniques for causal inference with missing outcomes (co-first author).",
-      "authors": [
-        "S. Heng*",
-        "J. Zhang*",
-        "Y. Feng"
-      ]
-    }
-  ],
-  "teaching": [
-    {
-      "course": "DATA 22100 Introduction to Machine Learning: Concepts and Applications",
-      "institution": "University of Chicago",
-      "date": "2025-03",
-      "role": "Teaching Assistant",
-      "description": "Led labs and discussion sessions covering supervised/unsupervised learning, model evaluation, and responsible ML."
+      "summary": "Heng*, Zhang*, Feng. * Equal contribution."
     },
     {
-      "course": "GPH-GU 2363 Causal Inference: Design and Analysis",
-      "institution": "New York University",
-      "date": "2023-09",
-      "role": "Teaching Assistant",
-      "description": "Supported course delivery on design-based causal inference, randomized experiments, and sensitivity analyses."
+      "name": "Towards a Universal Causal Reasoner",
+      "publisher": "NeurIPS 2026, Spotlight",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Dai*, Liu*, Zhang*, D. Zhang, Peng, Tan. * Equal contribution."
+    },
+    {
+      "name": "From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021",
+      "publisher": "WWW 2025",
+      "releaseDate": "2025",
+      "website": "https://dl.acm.org/doi/10.1145/3701716.3715502",
+      "summary": "Bao*, Zhang*, Cao*, Evans. * Equal contribution."
+    },
+    {
+      "name": "Building an Atlas of Social Experiments to Link Studies and Bridge Gaps",
+      "publisher": "Under review by ARR",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Zhang*, Bao, Wang, Yan, Liu, Evans. * Equal contribution."
+    },
+    {
+      "name": "Broad Misalignment Is Concentrated in Weight Changes Supporting Narrow Harmful Learning",
+      "publisher": "Under review by ARR",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Wang, Zhang, Shen, Dong."
     }
   ],
+  "teaching": [],
   "languages": [],
   "interests": [
     {
       "name": "Research interests",
       "keywords": [
-        "LLM reinforcement learning, interpretability, alignment",
-        "Causal inference"
+        "Causal inference theory and methods",
+        "LLM post-training and interpretability",
+        "Reinforcement learning"
       ]
     }
   ],

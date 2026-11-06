@@ -2,31 +2,32 @@
 permalink: /
 title: "Jiawei Zhang"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
-
 ---
+
+I am a Ph.D. student in Data Science at the University of Chicago, advised by Shuangning Li. My research spans causal inference, LLM post-training and interpretability, and reinforcement learning.
 
 ## Education
 
-- **Ph.D. in Data Science, University of Chicago**  
-  *2024 – Present*
+- **Ph.D. in Data Science**, University of Chicago, Data Science Institute (September 2024 – May 2028)
+- **B.A. in Computer Science and Mathematics**, New York University, Courant Institute of Mathematical Sciences (September 2020 – May 2024)
 
-- **B.A. in Mathematics & Computer Science, Business Minor, New York University**  
-  *Sep 2020 – May 2024*
+## Research
+
+My work on missing outcomes combines machine learning with randomization inference. I developed imputation-and-re-imputation tests with finite-population-exact Type-I error control under the proposed missingness mechanism, even when the imputation model is misspecified.
+
+For LLM post-training, I generated 66,603 causal training examples with exact-inference labels and trained models with supervised fine-tuning and reinforcement learning. This work appears in *NeurIPS 2026* as a Spotlight paper.
 
 ## Selected Publications
 
-- H. Bao, **J. Zhang**, M. Cao, and J. Evans. “From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021.” Accepted at *The Web Conference (WWW) 2025*. (co-first author) [DOI](https://dl.acm.org/doi/10.1145/3701716.3715502)
-- S. Heng, **J. Zhang**, and Y. Feng. “Design-based causal inference with missing outcomes: missingness mechanisms, imputation-assisted randomization tests, and covariate adjustment.” Accepted at *Journal of the American Statistical Association (Theory and Methods)*. (co-first author) [DOI](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204)
+- Heng*, **Zhang***, Feng. [Design-based causal inference with missing outcomes](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2516204). *Journal of the American Statistical Association*, 2025.
+- Dai*, Liu*, **Zhang***, D. Zhang, Peng, Tan. Towards a Universal Causal Reasoner. *NeurIPS 2026*, Spotlight.
+- Bao*, **Zhang***, Cao*, Evans. [From Division to Unity: A Large-Scale Study on the Emergence of Computational Social Science, 1990–2021](https://dl.acm.org/doi/10.1145/3701716.3715502). *WWW 2025*.
 
-## Selected Software
+*Equal contribution where marked.*
 
-- **python-iArt / iArt (R)** — Open-source packages for Imputation-Assisted Randomization Tests. [Documentation](https://i-art.readthedocs.io/en/latest/)
-- **scikit-learn / Pandas**
+## Open Source
 
-## Research Interests
-
-- LLM reinforcement learning, interpretability, alignment  
-- Causal inference
+I have contributed 22 merged pull requests across five scikit-learn modules, including an efficiency improvement to `GaussianMixture` shipped in version 1.3. I also fixed a metadata propagation issue in pandas (PR #52924).

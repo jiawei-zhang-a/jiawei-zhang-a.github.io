@@ -81,6 +81,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
+          {% if education.summary %}
+          <div class="cv-item-detail">{{ education.summary }}</div>
+          {% endif %}
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
@@ -96,6 +99,23 @@
   </div>
   {% endif %}
   
+  {% if cv.projects.size > 0 %}
+  <div class="cv-section">
+    <h2>Research Projects</h2>
+    <ul class="cv-list">
+      {% for project in cv.projects %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ project.name }}</div>
+          <div class="cv-item-date">{{ project.startDate }} - {{ project.endDate }}</div>
+        </div>
+        <div class="cv-item-detail">{{ project.summary }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">
